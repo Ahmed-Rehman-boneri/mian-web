@@ -1,0 +1,580 @@
+
+/* <--------------------------------------------------
+            media quarry screnn 1280
+    ---------------------------------------------------> */
+
+@media screen and (max-width:1280px) {
+    /* <--------------------------------------------------
+            nav bar
+    ---------------------------------------------------> */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+
+    nav h1 {
+        margin-left: 20px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+
+    }
+    /* <--------------------------------------------------
+            banner 1
+    ---------------------------------------------------> */
+
+
+    .banner {
+        justify-content: space-around;
+        /* width:; */
+        padding: 0px 0;
+    }
+
+    .contant {
+        margin: 100px 0px;
+        text-align: center;
+        width: 600px;
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .image {
+        display: none;
+    }
+    .cards{
+        /* display: ; */
+        /* justify-content: center; */
+        flex-direction: column;
+        width: 80%;
+        /* min-width: 400px; */
+        /* margin: 20px 0; */
+    }
+    .card{
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0 30px;
+
+    }
+    .card_contant{
+        width:100% ;
+    }
+    /* <--------------------------------------------------
+            banner 2
+    ---------------------------------------------------> */
+
+    .banner2{
+        flex-direction: column-reverse;
+    }
+    .image2{
+        display: none;
+    }
+    .inside_contant{
+        align-items: center;
+        text-align: center;
+    }
+
+    /* <--------------------------------------------------
+            banner 3
+    ---------------------------------------------------> */
+
+    .banner3{
+        flex-direction: column;
+    }
+    .image3{
+        width: 50%;
+    }
+
+    /* <--------------------------------------------------
+            banner 4
+    ---------------------------------------------------> */
+     .contant2{
+        /* flex-direction: column; */
+        width: 100%;
+     }
+     .div2{
+        display: none;
+     }
+     /* <--------------------------------------------------
+            banner 5
+    ---------------------------------------------------> */
+    .banner5{
+        padding: 30px 0;
+    }
+  .inside5_contant{
+       width: 60%;
+  }
+  .inside5_contant h1{
+      font-size: 30px;
+
+    
+  }
+  .inside5_contant h1 span{
+    font-size: 30px;
+    
+  }
+  .inside5_contant p{
+    font-size: 15px;
+  }
+  .icons{
+    width: 80%;
+    gap: 10px;
+    margin-top: 30px;
+
+    justify-content: space-around;
+
+  }
+  .icon5{
+    width: 300px;
+    height: 300px;
+  }
+  .icon_inside{
+    width: 80px;
+    height: 80px;
+
+  }
+   .icon_inside i {
+    font-size: 35px;
+
+}
+  .icon5 h4{
+    font-size: 17px;
+  }
+  .icon5 p{
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+/* <--------------------------------------------------
+            media quarry screnn 800
+    ---------------------------------------------------> */
+
+
+@media screen and (max-width:800px) {
+    /* <--------------------------------------------------
+            nav bar
+    ---------------------------------------------------> */
+
+    nav ul {
+        display: none;
+        /* flex-direction: column; */
+
+
+    }
+    /* <--------------------------------------------------
+            banner 1
+    ---------------------------------------------------> */
+
+
+    .contant {
+        width: 400px;
+    }
+
+    .contant h4 {
+        font-size: 19px;
+    }
+
+    .contant h1 {
+        font-size: 30px;
+    }
+
+    .contant p {
+        font-size: 14px;
+    }
+
+    .list i {
+        /* font-size: 35px; */
+        display: flex;
+        margin-right: 20px;
+    }
+
+    #shop {
+        width: 80px;
+        font-size: 12px;
+        height: 35px;
+    }
+
+    #contact {
+        width: 80px;
+        font-size: 12px;
+        height: 35px;
+    }
+    /* <--------------------------------------------------
+            banner 2
+    ---------------------------------------------------> */
+
+.banner_contant{
+    width: 80%;
+}
+.inside_contant h1{
+    font-size: 32px;
+}
+.inside_contant h1 span{
+    font-size: 25px;
+}
+.inside_contant p{
+    font-size: 14px;
+}
+#banner2_btn{
+    width: 80px;
+    height: 35px;
+    font-size: 12px;
+}
+.cards{
+    width: calc(100% - 10px);
+    margin: 0 10px;
+    /* width:300px; */
+    /* min-width: 250PX; */
+    padding: 0px 0px;
+}
+.card{
+    width: 90%;
+}
+/* <--------------------------------------------------
+            banner 3
+    ---------------------------------------------------> */
+
+.banner3_contant{
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.inside3_contant{
+    width: 100%;
+}
+.image3{
+    width: 80%;
+}
+/* .inside3_contant h4{
+    font-size: 15px;
+    margin: 20px 0;
+}
+.inside3_contant h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.inside3_contant h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.inside3_contant h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.inside3_contant p{
+    font-size: 13px;
+    margin-bottom: 10px 10px;
+}*/
+.banner3_contant button{
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 20px;
+} 
+/* <--------------------------------------------------
+            banner 4
+    ---------------------------------------------------> */
+   .contant1{
+    width: 80%;
+   }
+   
+   .contant1 h1{
+    font-size: 25px;
+   }
+   .contant1 h1 span{
+    font-size: 30px;
+   }
+   .contant1 p{
+    font-size: 14px;
+   }
+   .contant2_inside{
+    width: 300px;
+    height: 300px;
+   }
+   .icon4{
+    /* width: ; */
+   }
+   .icon_show{
+    width: 80px;
+    height: 60px;
+    margin: 0 10px;
+   }
+   .icon_show i{
+    font-size: 20px;
+   }
+  .icon_contant h4{
+    font-size: 15px;
+
+  }
+.icon_contant p{
+    font-size: 12px;
+    
+  }
+   /* <--------------------------------------------------
+            banner 5
+    ---------------------------------------------------> */
+    .banner5{
+        padding: 30px 0;
+    }
+  
+  .inside5_contant{
+       width: 60%;
+  }
+  .inside5_contant h1{
+      font-size: 25px;
+
+    
+  }
+  .inside5_contant h1 span{
+    font-size: 25px;
+    
+  }
+  .inside5_contant p{
+    font-size: 12px;
+  }
+  .icons{
+    width: auto;
+    /* justify-content: space-around; */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+
+  }
+  .icon5{
+    width: 260px;
+    height: 200px;
+    /* gap: 20px; */
+  }
+  .icon_inside{
+    width: 70px;
+    height: 70px;
+
+  }
+  .icon_inside i {
+    font-size: 30px;
+
+}
+  .icon5 h4{
+    font-size: 17px;
+    margin: 5px 0;
+  }
+  .icon5 p{
+    font-size: 15px;
+
+  }
+  /* <--------------------------------------------------
+            banner 6
+    ---------------------------------------------------> */
+    .contant6{
+        width:80%
+        /* margin-top: 0px; */
+    }
+    .contant6 h1{
+        font-size: 35px;
+    }
+    .contant6 h1 span{
+        font-size: 35px;
+    }
+    .contant6 p{
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+/* <--------------------------------------------------
+            media quarry screnn 450
+    ---------------------------------------------------> */
+
+
+@media screen and (max-width: 500px){
+    /* <--------------------------------------------------
+            banner nav bar
+    ---------------------------------------------------> */
+
+    nav h1{
+        font-size: 25px;
+    }
+    .list i{
+        font-size: 25px;
+    }
+    nav{
+        height: 70px;
+    }
+    /* <--------------------------------------------------
+            banner 1
+    ---------------------------------------------------> */
+
+    .contant{
+        width: 350px;
+
+    }
+    #shop{
+        margin-right: 10px;
+    }
+    /* <--------------------------------------------------
+            banner 3
+    ---------------------------------------------------> */
+
+    .banner3_contant{
+        width: 80%;
+        /* min-width: 300px; */
+        height: 400px;
+        /* height: auto; */
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .inside3_contant{
+        width: 100%;
+        height: 100%;
+    }
+    .inside3_contant h4{
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .inside3_contant h2{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .inside3_contant h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    
+    }
+    .inside3_contant h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .inside3_contant p{
+        font-size: 13px;
+        margin-bottom: 10px 10px;
+    }
+    .banner3_contant button{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .image3{
+        width: 80%;
+    }
+
+     /* <--------------------------------------------------
+            banner 4
+    ---------------------------------------------------> */
+
+    .contant2{
+        flex-direction: column;
+        width: 100%;
+       }
+       .contant1{
+        width: 100%;
+        margin: 10px 5px;
+       }
+       
+       .contant1 h1{
+        font-size: 18px;
+       }
+       .contant1 h1 span{
+        font-size: 22px;
+       }
+       .contant1 p{
+        font-size: 12px;
+       }
+       .contant2_inside{
+        width: 90%;
+        height: 80%;
+       }
+       .icon4{
+        width:100% ;
+        margin: 5px 0;
+        /* padding-left: 10px; */
+        /* min-width: 250px; */
+        box-sizing: border-box;
+       }
+       .icon_show{
+        width: 50px;
+        height: 45px;
+        margin-right:10px;
+       }
+       .icon_show i{
+        font-size: 15px;
+       }
+      .icon_contant h4{
+        font-size: 15px;
+    
+      }
+    .icon_contant p{
+        font-size: 12px;
+        
+      }
+       /* <--------------------------------------------------
+            banner 5
+    ---------------------------------------------------> */
+     .banner5{
+        padding: 20px 0;
+    }
+  
+  .inside5_contant{
+       width: 80%;
+  }
+  .inside5_contant h1{
+      font-size: 22px;
+
+    
+  }
+  .inside5_contant h1 span{
+    font-size: 22px;
+    
+  }
+  .inside5_contant p{
+    font-size: 10px;
+  }
+  .icons{
+    width: auto;
+    /* justify-content: space-around; */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+
+  }
+  .icon5{
+    width: 220px;
+    height: 150px;
+    /* gap: 20px; */
+  }
+  .icon_inside{
+    width: 50px;
+    height: 50px;
+
+  }
+  .icon_inside i {
+    font-size: 25px;
+    /* margin: 0px; */
+    
+}
+.icon5 h4{
+      margin: 5px 0;
+    font-size: 15px;
+  }
+  .icon5 p{
+    font-size: 12px;
+  }
+
+}
+    
