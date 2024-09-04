@@ -151,7 +151,21 @@
   }
 
 
+  /* <--------------------------------------------------
+            banner 8
+    ---------------------------------------------------> */
+    .contant8{
+        width: 60%;
+    }
+    .images8{
+        margin: 0px 20px;
+        /* flex-direction: column; */
+    }
+    .about_images8{
+        width: 30%;
+    }
 }
+
 
 
 
@@ -303,9 +317,9 @@
     width: 300px;
     height: 300px;
    }
-   .icon4{
-    /* width: ; */
-   }
+   /* .icon4{
+    width: ;
+   } */
    .icon_show{
     width: 80px;
     height: 60px;
@@ -431,6 +445,42 @@
     #para7 {
         font-size: 15px;
     }
+    /* <--------------------------------------------------
+            banner 8
+    ---------------------------------------------------> */
+    /* .images8{
+        margin: 0px 20px;
+    } */
+     /* .contant8{
+        width: 80%;
+     }
+    .about_images8{
+        width: 250px;
+        
+    }
+    .about_images8 h4{
+        
+        font-size: 17px;
+    }
+    .icon8 i{
+        font-size: 10px;
+
+    }
+    .icon8 span{
+        font-size: 10px;
+        
+    }
+    .about_images8 p{
+        
+        font-size: 12px;
+    }
+    
+    .btn8 button{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    } */
+
 
 
 

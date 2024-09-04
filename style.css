@@ -853,7 +853,9 @@ nav ul li button {
 
 .contant8 {
     width: 450px;
+    border: solid black;
     /* height: auto; */
+
     
 }
 
@@ -881,6 +883,7 @@ nav ul li button {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border: solid black;
 }
 
 .about_images8 {
@@ -963,6 +966,7 @@ nav ul li button {
     cursor: pointer;
     position: absolute;
     bottom: 20px;
+    margin-top: 20px;
     left: 30px;
 }
 
