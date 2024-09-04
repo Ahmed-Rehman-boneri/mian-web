@@ -160,7 +160,7 @@
     ---------------------------------------------------> */
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1007px) {
     /* <--------------------------------------------------
             nav bar
     ---------------------------------------------------> */
@@ -390,8 +390,47 @@
     .contant6 p{
         font-size: 12px;
     }
+    /* <--------------------------------------------------
+            banner 7
+    ---------------------------------------------------> */
+    .contant7_1 {
+        width: 60%;
+    }
 
+    .contant7_1 h1 {
+        
+        font-size: 30px;
+    
+    
+    }
+    .contant7_1 h1 span {
+        font-size: 30px;
+        
+    }
 
+    .contant7_1 p {
+        font-size: 12px;
+        
+    
+    }
+    .image7 {
+        width: 80px;
+
+    }
+    .contant7_2 {
+        width: 60%;
+
+    }
+    .contant7_2 p {
+        font-size: 12px;
+
+    }
+    .contant7_2 h2 {
+        font-size: 20px;
+    }
+    #para7 {
+        font-size: 15px;
+    }
 
 
 
@@ -402,7 +441,7 @@
     ---------------------------------------------------> */
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 640px){
     /* <--------------------------------------------------
             banner nav bar
     ---------------------------------------------------> */
@@ -575,6 +614,104 @@
   .icon5 p{
     font-size: 12px;
   }
+  /* <--------------------------------------------------
+            banner 6
+    ---------------------------------------------------> */
+    .contant6{
+        width: 90%;
+    }
+    .contant6 h1{
+        font-size: 25px;
 
+    }
+
+    .contant6 h1 span{
+        font-size: 25px;
+        
+    }
+    .contant6 p{
+        font-size: 10px;
+        
+    }
+    .about_images{
+        height: 400px;
+        width: 60%;
+    }
+    .about_images img{
+        width: auto;
+        height: 60%;
+    }
+    .icons6 {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .icons6 i {
+        font-size: 12px;
+
+    }
+    .about_images h4 {
+        font-size: 15px;
+        margin-top: 5px;
+    
+    }
+    .about_images h1 {
+        font-size: 23px;
+        font-weight: 800;
+        color: rgb(107, 185, 112);
+        margin: 10px 0px;
+    }
+    .btn6 button {
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+
+}
+    /* <--------------------------------------------------
+            banner 7
+    ---------------------------------------------------> */
+    .contant7_1 {
+        width: 90%;
+    }
+
+    .contant7_1 h1 {
+        
+        font-size: 25px;
+    
+    
+    }
+    .contant7_1 h1 span {
+        font-size: 25px;
+        
+    }
+
+    .contant7_1 p {
+        font-size: 10px;
+        
+    
+    }
+    .image7 {
+        width: 70px;
+
+    }
+    .contant7_2 {
+        width: 90%;
+
+    }
+    .contant7_2 p {
+        font-size: 10px;
+
+    }
+    .contant7_2 h2 {
+        font-size: 15px;
+    }
+    #para7 {
+        font-size: 12px;
+    }
+    .list_no {
+        width: 22px;
+        height: 22px;
+        
+    
+    }
 }
     

@@ -627,7 +627,7 @@ nav ul li button {
     width: 600px;
     height: auto;
     /* border: none; */
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .contant6 h1 {
@@ -708,6 +708,7 @@ nav ul li button {
 .about_images h4 {
     font-size: 20px;
     margin-top: 10px;
+    text-align: center;
 
 }
 
@@ -753,6 +754,7 @@ nav ul li button {
 
 .contant7_1 {
     width: 600px;
+    /* border: solid black; */
 }
 
 .contant7_1 h1 {
